@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Puntesliga</title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="header-images-container">
+			<img src="images/will-levis.png" alt="Will Levis" class="header-images">
+			<img src="images/logo.jpeg" alt="Puntesliga Logo" class="league-logo">
+			<img src="images/packers-bears.png" alt="Packers Bears" class="header-images">
+		</div>
+		
+		<p>Four Canadians, Six Germans, Ten Owners, One Champion</p>
+		
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="matchups.html">Matchups</a>
+			<a href="standings.html">Standings</a>
+			<a href="owners.html">Meet The Owners</a>
+			<a href="media.html">Media</a>
+		</nav>
+	</header>
+	
+	<main>
+
+		<section class="matchups-page">
+
+			<h2>Matchups:</h2>
+			
+			<div class="matchup-controls">
+
+			<div class="week-selector">
+
+			<label for="week-select">Week:</label>
+
+			<select id="week-select">
+				<option value="1">Week 1</option>
+				<option value="2">Week 2</option>
+				<option value="3">Week 3</option>
+				<option value="4">Week 4</option>
+				<option value="5">Week 5</option>
+				<option value="6">Week 6</option>
+				<option value="7">Week 7</option>
+				<option value="8">Week 8</option>
+				<option value="9">Week 9</option>
+				<option value="10">Week 10</option>
+				<option value="11">Week 11</option>
+				<option value="12">Week 12</option>
+				<option value="13">Week 13</option>
+				<option value="14">Week 14</option>
+			</select>
+
+		</div>
+
+
+		<div class="owner-selector">
+
+			<label for="owner-select">Your Profile:</label>
+
+			<select id="owner-select">
+				<option value="">Select Owner</option>
+				<option value="Kyle">Kyle - Green Bay Gamblers</option>
+				<option value="Julian">Julian - Holywood Oilers</option>
+				<option value="Josh">Josh - Seattle Swingers</option>
+				<option value="Andy">Andy - Titsburgh Feelers</option>
+				<option value="Ben">Ben - San Diego Chuggers</option>
+				<option value="David">David - Washington Foreskins</option>
+				<option value="Kye">Kye - Washington Commandos</option>
+				<option value="Michi">Michi - Denver BrownCocks</option>
+				<option value="Nils">Nils - Boston Tea Bags</option>
+				<option value="Ruben">Ruben - New York Jets</option>
+			</select>
+
+		</div>
+
+		</div>	
+
+
+			<div id="full-matchup-container">
+
+				<p>Loading matchups...</p>
+
+			</div>
+
+		</section>
+
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+	<script src="matchups.js"></script>
+
+</body>
+
+</html>

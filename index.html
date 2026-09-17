@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Puntesliga</title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="header-images-container">
+			<img src="images/tom-brady-son.png" alt="Tom Brady Son" class="header-images">
+			<img src="images/logo.jpeg" alt="Puntesliga Logo" class="league-logo">
+			<img src="images/oj-glove.png" alt="OJ Simpson" class="header-images">
+		</div>
+		
+		<p>Four Canadians, Six Germans, Ten Owners, One Champion</p>
+		
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="matchups.html">Matchups</a>
+			<a href="standings.html">Standings</a>
+			<a href="owners.html">Meet The Owners</a>
+			<a href="media.html">Media</a>
+		</nav>
+	</header>
+	
+	<main>
+		<section class="welcome">
+			<h2>Welcome to the Puntesliga</h2>
+			
+			<p>
+				This is the official home of the Puntesliga Fantasy Football League.<br><br>
+				Follow the league's latest news, roster updates, standings and matchups.
+			</p>
+		</section>
+		
+		<section class="current-week">
+			<h2>Current Week</h2>
+			
+			<div id="matchup-container">
+				<p>Loading this week's matchups...</p>
+			</div>
+		</section>
+		
+		<div class="home-info-grid">
+
+			<section class="league-news">
+
+				<h2>League News</h2>
+
+				<div id="league-news-container"></div>
+
+			</section>
+
+
+			<section class="league-leaders">
+
+				<h2>League Leaders</h2>
+
+				<div class="leader-card">
+					<h3>Best Record</h3>
+					<p id="best-record">Loading...</p>
+				</div>
+
+				<div class="leader-card">
+					<h3>Most Points Scored</h3>
+					<p id="most-points">Loading...</p>
+				</div>
+				
+				<div class="leader-card">
+					<h3>Most Points Against</h3>
+					<p id="most-points-against">Loading...</p>
+				</div>
+
+				<div class="leader-card">
+					<h3>Highest Weekly Score</h3>
+					<p id="highest-weekly-score">Loading...</p>
+				</div>
+
+			</section>
+
+		</div>
+	</main>	
+	
+	<script src="projections.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

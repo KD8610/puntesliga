@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Puntesliga Standings</title>
+	
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<div class="header-images-container">
+			<img src="images/henry-ruggs-mugshot.jpg" alt="Henry Ruggs Mugshot" class="header-images">
+			<img src="images/logo.jpeg" alt="Puntesliga Logo" class="league-logo">
+			<img src="images/deshaun-watson-achilles.jpg" alt="Deshaun Watson Achilles" class="header-images">
+		</div>
+		
+		<p>Four Canadians, Six Germans, Ten Owners, One Champion</p>
+		
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="matchups.html">Matchups</a>
+			<a href="standings.html">Standings</a>
+			<a href="owners.html">Meet The Owners</a>
+			<a href="media.html">Media</a>
+		</nav>
+	</header>
+	
+	<main>
+
+		<section class="standings">
+
+			<h2>Puntesliga Standings</h2>
+
+			<table id="standings-table">
+
+				<thead>
+
+					<tr>
+						<th data-column="name">Team</th>
+						<th data-column="wins">W</th>
+						<th data-column="losses">L</th>
+						<th data-column="pf">PF</th>
+						<th data-column="pa">PA</th>
+					</tr>
+
+				</thead>
+
+				<tbody id="standings-body">
+
+					<tr>
+						<td colspan="5">Loading standings...</td>
+					</tr>
+
+				</tbody>
+
+			</table>
+
+		</section>
+
+	</main>
+
+	<script src="standings.js"></script>
+
+</body>
+
+</html>

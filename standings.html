@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Puntesliga | Standings
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+  </header>
+  <main>
+   <section>
+    <h1>
+     Standings
+    </h1>
+    <div class="table-wrap">
+     <table id="standings-table">
+      <thead>
+       <tr>
+        <th data-column="name">
+         Team
+        </th>
+        <th data-column="wins">
+         W
+        </th>
+        <th data-column="losses">
+         L
+        </th>
+        <th data-column="pf">
+         PF
+        </th>
+        <th data-column="pa">
+         PA
+        </th>
+        <th data-column="diff">
+         +/-
+        </th>
+       </tr>
+      </thead>
+      <tbody id="standings-body">
+       <tr>
+        <td colspan="6">
+         Loading...
+        </td>
+       </tr>
+      </tbody>
+     </table>
+    </div>
+   </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="site-data.js">
+  </script>
+  <script src="common.js">
+  </script>
+  <script src="standings.js">
+  </script>
+ </body>
+</html>

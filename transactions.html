@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Puntesliga | Transactions</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header></header>
+
+	<main>
+		<section>
+			<h1>Transactions</h1>
+
+			<div class="transaction-filters">
+				<button class="filter-button active" data-filter="all">All</button>
+				<button class="filter-button" data-filter="trade">Trades</button>
+				<button class="filter-button" data-filter="waiver">Waivers</button>
+				<button class="filter-button" data-filter="free_agent">Adds / Drops</button>
+			</div>
+
+			<div id="transactions-container">
+				<div class="placeholder">Loading transactions from Sleeper...</div>
+			</div>
+		</section>
+	</main>
+
+	<footer></footer>
+
+	<script src="site-data.js"></script>
+	<script src="common.js"></script>
+	<script src="transactions.js"></script>
+</body>
+</html>

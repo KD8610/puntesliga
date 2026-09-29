@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Puntesliga | Records
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+  </header>
+  <main>
+   <section>
+    <h1>
+     League Records
+    </h1>
+    <div class="grid-3" id="records" style="margin-top:24px">
+    </div>
+   </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="site-data.js">
+  </script>
+  <script src="common.js">
+  </script>
+  <script>
+   renderHeader('records');renderFooter();document.getElementById('records').innerHTML=LEAGUE_RECORDS.map(r=>`<article class="record-card"><h3>${escapeHTML(r.record)}</h3><p class="record-value">${escapeHTML(r.value)}</p><p><strong>${escapeHTML(r.holder)}</strong></p><p class="muted">${escapeHTML(r.date)}</p></article>`).join('');
+  </script>
+ </body>
+</html>

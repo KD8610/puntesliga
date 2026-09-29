@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Puntesliga | Home</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header></header>
+
+	<main>
+		<section class="hero">
+			<p class="eyebrow">The official home of the Puntesliga</p>
+			<h1>Puntesliga</h1>
+			<p>Live fantasy football matchups, standings, league stories, power rankings, records and media.</p>
+
+			<div class="button-row">
+				<a class="button" href="matchups.html">View Matchups</a>
+				<a class="button secondary" href="standings.html">League Table</a>
+			</div>
+		</section>
+
+		<section>
+			<h2>This Week</h2>
+			<div id="matchup-container">
+				<p class="muted">Loading this week's matchups...</p>
+			</div>
+		</section>
+
+		<div class="grid-2 equal-home-columns">
+			<section>
+				<h2>Latest Transactions</h2>
+				<div id="home-transactions">
+					<div class="placeholder">Loading latest transactions...</div>
+				</div>
+				<a class="button secondary" href="transactions.html">All Transactions</a>
+			</section>
+
+			<section>
+				<h2>Latest News</h2>
+				<div id="home-news"></div>
+				<a class="button secondary" href="news.html">All News</a>
+			</section>
+		</div>
+
+		<div class="grid-2 awards-leaders-grid">
+			<section>
+				<h2>Weekly Awards</h2>
+				<div class="grid-3" id="home-awards"></div>
+			</section>
+
+			<section>
+				<h2>League Leaders</h2>
+				<div class="stat-grid" id="leader-container">
+					<div class="stat">
+						<span>Status</span>
+						<strong>Loading...</strong>
+					</div>
+				</div>
+			</section>
+		</div>
+	</main>
+
+	<footer></footer>
+
+	<script src="site-data.js"></script>
+	<script src="common.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

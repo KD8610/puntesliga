@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   Puntesliga | Power Rankings
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+  </header>
+  <main>
+   <section>
+    <h1>
+     Power Rankings
+    </h1>
+    <div id="rankings" style="margin-top:24px">
+    </div>
+   </section>
+  </main>
+  <footer>
+  </footer>
+  <script src="site-data.js">
+  </script>
+  <script src="common.js">
+  </script>
+  <script>
+   renderHeader('rankings');renderFooter();document.getElementById('rankings').innerHTML=POWER_RANKINGS.map(r=>`<article class="ranking-card"><div class="rank-number">#${r.rank}</div><img src="${getTeamImage(r.team)}" alt=""><div class="ranking-copy"><h3>${escapeHTML(r.team)}</h3><p>${escapeHTML(r.note)}</p></div></article>`).join('');
+  </script>
+ </body>
+</html>

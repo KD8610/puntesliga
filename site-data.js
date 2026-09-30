@@ -51,6 +51,13 @@ const TEAM_IMAGES = {
    ============================================================ */
 const LEAGUE_NEWS = [
 	{
+		type: "Media",
+		date: "September 29, 2026",
+		title: "J&J Episode 5",
+		summary: "Jim and John purchased a phone.",
+		body: "Jim and John take a call from an anonymous listener, recap Week 3 of the Puntesliga season, update their Power Rankings as well as preview week 4."
+	},
+	{
 		type: "Announcements",
 		date: "September 29, 2026",
 		title: "Shough SZN coming to an end?",

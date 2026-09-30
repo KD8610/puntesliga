@@ -82,16 +82,16 @@ const LEAGUE_NEWS = [
 
 // REPLACE_ME every week. Rank 1 should be first.
 const POWER_RANKINGS = [
-  { rank: 1, team: "Titsburgh Feelers", note: "Need I say more? Feeling all the competition without consent." },
-  { rank: 2, team: "San Diego Chuggers", note: "Much like the rest of the list, injuries are causing issues on this roster, especially Malik Nabers with the shoulder injury. Cameron Dicker is also a question mark at the kicker position, but for now we have them chugging away at #2." },
-  { rank: 3, team: "Boston Tea Bags", note: "Loving the starting lineup, however the bench depth is looking slightly concerning however they are absolutely balling out in the starting lineup." },
-  { rank: 4, team: "Seattle Swingers", note: "JSN and Drew \"Cock\" Lock letting it swing all over the place. The TE stack of Tyler Warren and George Kittle is looking like an unbelievable decision. Potentially the only concern is that LA Chargers offense and if they can turn it around." },
-  { rank: 5, team: "New York Jets", note: "With Josh Allen leading the charge with a 40 ball, the only rough spot on the roster is at kicker? If that's the biggest concern the season might not be over? (Potentially some bias from John...?)" },
-  { rank: 6, team: "Washington Commandos", note: "Looking at the QB position, they are going to need to pull something out of nowhere because injuries are going to absolutely demolish this squad." },
-  { rank: 7, team: "Washington Foreskins", note: "Lots of consistency on this team, however looking at the depth, any injuries may cause this team's downfall." },
-  { rank: 8, team: "Green Bay Gamblers", note: "Falling quickly, the Gamblers are going to need to pick up the pace after losing to the Oilers in historic fashion. Looking like a must win in week 3 to salvage the season." },
-  { rank: 9, team: "Hollywood Oilers", note: "Despite the win, they do not have the ability among their starting lineup to perform week to week just yet. Give it a few years and they might break the top 5." },
-  { rank: 10, team: "Denver BrownCocks", note: "Starting Matthew Golden at WR1 will never result in a positive, Jonathan Taylor and Lamar Jackson are their only hope."}
+  { rank: 1, team: "Seattle Swingers", note: "Joshua William Newel is letting his nuts swing all over the competition. JSN and Derrick Henry have been balling out throughout the season, if the rest of the squad can wake up (especially that Chargers offense), this may be the championship favourite." },
+  { rank: 2, team: "Titsburgh Feelers", note: "Not even Bijan Robinson could save this squad in a hard fought match against our #1 ranked team. Our analysts are wondering whether or not the Feelers have a fraud tag a quarter of the way through the season." },
+  { rank: 3, team: "Washington Commandos", note: "K9 has been and will be the backbone of the Commandos for years to come. The Super Bowl MVP has come through in the clutch and is putting up performances week in and week out. Geno Smith put his nuts on the table and went full Commando." },
+  { rank: 4, team: "Boston Tea Bags", note: "Opposite to the Oilers, the running back position has struggled for the Tea Bags as of late. If Saquon Barkley can perform to his ability, this team will wake up quick." },
+  { rank: 5, team: "Hollywood Oilers", note: "The running back position carried this team this week and with a couple time travelers in Davante Adams and Travis Kelce, they might be making a championship argument? (Drake Maye is still on the team)" },
+  { rank: 6, team: "Washington Foreskings", note: "The Foreskins notable performance from Garrett Wilson brought them over the top of the Chuggers after that blockbuster trade in the week prior. This was a full team effort from them, however Jalen Hurts may cause problems for their championship equity." },
+  { rank: 7, team: "Green Bay Gamblers", note: "After a much needed first win on the season, the Gamblers are facing massive injuries up and down the roster. If Drake London can maintain his massive performance they may be able to survive the starters missing a week or two." },
+  { rank: 8, team: "San Diego Chuggers", note: "The Wide Reciever core struggled in Week 3, and considering the Chuggers drafted to have a stud Recieving core we are concerned with their consistency moving forward. Jahmyr Gibbs and De'Andre Swift are the only bright spots on this squad coming out of Week 3." },
+  { rank: 9, team: "New York Jets", note: "Devon Achane's massive torn ACL will cause a ripple effect throughout this squad. We aren't sure where the points will come from outside of Josh Allen and are afraid the team won't be able to perform moving forward." },
+  { rank: 10, team: "Denver BrownCocks", note: "Removing Kyle Pitts can only do so much when you replace him with Khalil Shakir. Not sure if there is any hope saving this team with it's current front office moves."}
 ];
 
 // REPLACE_ME each week.
@@ -133,6 +133,7 @@ const DAILY_PUNT_POSTS = [
    newest episode at the TOP of the list.
    ============================================================ */
 const VIDEO_POSTS = [
+  { title: "The J&J Show - Episode 5", author: "Jim and John", date: "September 29, 2026", url: "https://www.youtube.com/watch?v=MUH5WayOPBE", description: "Week 3 Review, Anonymous caller's fortnite hypothetical? Power Rankings and what you need to know for Week 4" },
   { title: "The J&J Show - Episode 4", author: "Jim and John", date: "September 23, 2026", url: "https://www.youtube.com/watch?v=w7p0FTEkNck", description: "Week 2 Review, Power Rankings, Week 3 Preview" },
   { title: "The J&J Show - Episode 3", author: "Jim and John", date: "September 16, 2026", url: "https://www.youtube.com/watch?v=siO4KZdvxcY&t=223s", description: "Week 1 Review, Power Rankings, Outlook on Week 2" }
 ];
